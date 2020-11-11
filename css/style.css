@@ -1,0 +1,133 @@
+*{
+    list-style: none;
+}
+
+@font-face {
+    font-family: "About Love";
+    src: url("../AboutLove.ttf");
+}
+body{
+    font-family:'Roboto', sans-serif ;
+}
+.lupa{
+    color:#01363a ;
+    border-color: #01363a;
+    background: #85d1cd !important; 
+
+}
+.bg-barrita{
+    background: #85d1cd;
+}
+.text-letra{
+    color: #09454a !important;
+}
+.hola{
+    color: #01363a;
+    background: #a6d6d9;
+    border-radius: 5%;
+}
+.slider-1{
+    font-weight: 300 !important;
+    color: #01363a;
+}
+.slider-2{
+    color: #1b3d6f;
+}
+.slider-3{
+    font-weight: 500;
+    color: #21888e;
+}
+.vermas{
+    border:none;
+    border-radius: 10px;
+    color: white;
+    background: #002c2f;
+}
+.bienvenida{
+    font-family: "About Love";
+    color:#214749;
+    font-size: 150px;
+}
+.parrafos{
+    font-family:'Roboto', sans-serif ;
+    
+}
+.fondo{
+    background: url("../img/bg-inicio.jpg");
+    background-repeat: no-repeat;
+}
+.span{
+    color:#214749;
+}
+.bg-servicio{
+    background: #20585c;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif ; 
+    width: 300px;
+    height: 50px;
+
+}
+.menu-servicios{
+    background: url("../img/bg-servicios.jpg");
+    background-repeat: no-repeat;
+}
+.card{
+    background: gray;
+    border: none;
+    border-radius: 3%;
+    cursor: pointer;
+}
+.gris{
+    position: relative;
+    background: #DDDBDB;
+    cursor: pointer;
+}
+.ptc{
+    font-weight: 400;
+    color: #013135;
+}
+.n-equipo{
+    background: url("../img/equipo.jpg");
+    display: flex;
+    justify-content: flex-end;
+    height: 624px;
+    padding: 30px;
+    align-items: flex-end;
+}
+.grupo{
+    cursor: pointer;
+    color: #013135;
+    font-family: 'Roboto', sans-serif;
+    width: 450px;
+    padding: 20px;
+    background: hsl(0deg 0% 100% / 47%);
+}
+.conocenos{
+    color: white ;
+    background: #013135 ;
+    border: none;
+    cursor: pointer;
+    width: 140px;
+    height: 45px;
+}
+.footer{
+    background: #002528;
+    color: white;
+}
+.suscribete{
+    background: #01545a;
+}
+
+
+@media screen and (max-width: 750px){
+    .menu-servicios{
+        background: url("../img/bg-servicios-v.jpg");
+        background-repeat: no-repeat;
+    }
+    .cartas{
+        display: flex;
+        flex-flow: row wrap;
+        margin: auto;
+    }
+
+}
